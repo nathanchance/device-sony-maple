@@ -13,6 +13,8 @@
 # limitations under the License.
 
 TARGET_KERNEL_CONFIG := aosp_yoshino_maple_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := 7.0.2
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/maple/device.mk)
